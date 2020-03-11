@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainScreen.Portfolio.PortfolioFragment">
+
+    <TextView
+        android:id="@+id/tv_portfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portfolio"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="12sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_total_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:layout_marginTop="8sp"
+        android:text="Total Value"
+        android:layout_marginStart="20sp"
+        android:layout_below="@+id/tv_portfolio"/>
+
+    <TextView
+        android:id="@+id/tv_total_pl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:layout_marginTop="8sp"
+        android:text="Total P/L"
+        android:layout_marginStart="20sp"
+        android:layout_below="@+id/tv_total_value"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_portfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:layout_marginLeft="4sp"
+        app:tabIndicatorColor="@color/colorWhite"
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:tabTextColor="@color/colorWhite"
+        android:layout_below="@+id/tv_total_pl"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl_portfolio"/>
+
+</RelativeLayout>

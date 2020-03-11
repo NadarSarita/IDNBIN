@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainScreen.MarketAnalysis.MarketAnalysisFragment">
+
+    <TextView
+        android:id="@+id/TvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Market Analysis"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/TvMovesAlerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Moves Alerts"
+        android:paddingStart="25dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="8dp"
+        android:textSize="12sp"
+        android:background="@drawable/bg_greenborder"
+        android:textColor="@color/colorGradGreen"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/Tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvTitle"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorWhite"
+        app:tabTextColor="@color/colorLightGray"
+        app:tabGravity="fill"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Tab_layout"/>
+
+
+</RelativeLayout>

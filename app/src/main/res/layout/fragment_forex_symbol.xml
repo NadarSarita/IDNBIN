@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assets.Forex.ForexSymbolFragment"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volume"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spread"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lever"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SEK"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+0.16%"
+            android:textColor="@color/colorBuy"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SGD"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-0.07%"
+            android:textColor="@color/colorSell"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SEK"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+0.16%"
+            android:textColor="@color/colorBuy"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SGD"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-0.07%"
+            android:textColor="@color/colorSell"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SEK"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+0.16%"
+            android:textColor="@color/colorBuy"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUD/SGD"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-0.07%"
+            android:textColor="@color/colorSell"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.050%"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x500"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

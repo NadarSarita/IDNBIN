@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen.Profile.History.TradesFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorWhiteTransparent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_st"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:text="EUR/USD"/>
+
+            <TextView
+                android:id="@+id/tv_dgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"
+                android:layout_below="@+id/tv_st"
+                android:textColor="@color/colorWhite"
+                android:text="Digital"/>
+
+            <TextView
+                android:id="@+id/tv_cncy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.90"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/tv_prnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-$49.06(98.1%)"
+                android:textSize="12sp"
+                android:textColor="@color/colorSell"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_cncy"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorWhiteTransparent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_st1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:text="EUR/USD"/>
+
+            <TextView
+                android:id="@+id/tv_dgl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"
+                android:layout_below="@+id/tv_st1"
+                android:textColor="@color/colorWhite"
+                android:text="Digital"/>
+
+            <TextView
+                android:id="@+id/tv_cncy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.90"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/tv_prnt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-$49.06(98.1%)"
+                android:textSize="12sp"
+                android:textColor="@color/colorSell"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_cncy1"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorWhiteTransparent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_s2t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:text="EUR/USD"/>
+
+            <TextView
+                android:id="@+id/tv_dgl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"
+                android:layout_below="@+id/tv_s2t"
+                android:textColor="@color/colorWhite"
+                android:text="Digital"/>
+
+            <TextView
+                android:id="@+id/tv_cncy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.90"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:id="@+id/tv_prnt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-$49.06(98.1%)"
+                android:textSize="12sp"
+                android:textColor="@color/colorSell"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_cncy2"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

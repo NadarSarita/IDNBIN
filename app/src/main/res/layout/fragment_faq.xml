@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen.Profile.Help.FAQ.FAQFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Tv_Que1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="How do I top up the practice account?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que1"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="You can always top up your practice account for free if the balance falls below $10,000. First, you must select this account. Then click the green Deposit button with two arrows in the upper-right corner. A window opens where you can choose which account to top up: the practice account or the real one."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans1"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans1"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="How much money can I make?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans1"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que2"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="Your success depends on your skills and patience, your chosen trading strategy, and the amount you are able to invest. We recommend watching our training videos first, so you can make more informed transactions. Beginning traders can try out their skills and practice on the practice account."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans2"
+            android:background="@color/colorLightGray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans2"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans2"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="What is IDNBIN?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans2"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que3"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="IDNBIN is a trading platform that helps you start your journey as a trader. We offer the following instrunnents: - \n
+• CFDs on currenW pairs \n
+• CFOs on stocks \n
+• CFDs on commodities \n
+• CFDS on Cryptocurrencies CFDs on ETFs - Binary Options \n
+• Digital Options \n
+You can start practicing on a demo account, and then continue trading with real funds Our graphical tools and convenient technical analysis indicators help you make trading dcisions."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans3"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans3"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="How money can I make on the practice account?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans3"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que4"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="You cant take any profit from transactions you complete on the practice account. You get virtual funds and make virtual transactions. It is intended for training purposes only. To trade using real money. you need to deposit funds to a real account."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans4"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans4"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="What is volatility?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans4"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que5"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="To put it simply, volatility is how much a price changes. Wth low volatility, changes are insignificant on the chart and the asset might expire at the same level where you opened a position But the chart shows high volatility. The assets level fluctuates quickly."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans5"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans5"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="What is the minimum and the maximum investment per trade? "
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans5"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que6"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="The minimum investmen arnount for todays trading conditions can be found on the Company's trading platform/website. The maximum investment arnount is $20,000. The maximum amount on assets may vary according to the market conditions."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans6"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans6"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="Trading loans"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans6"
+            android:src="@drawable/ic_downarrow"
+            android:backgroundTint="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/Tv_Ans7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que7"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="The company doesn't provide any loans for trading. Thank you for understanding!"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans7"
+            android:background="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/Tv_Que8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Ans7"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="How do I switch between the practice account and the real account?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/Iv_img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="0.5dp"
+            android:layout_below="@+id/Tv_Ans7"
+            android:src="@drawable/ic_downarrow" />
+
+        <TextView
+            android:id="@+id/Tv_Ans8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Tv_Que8"
+            android:layout_margin="0.5dp"
+            android:padding="10dp"
+            android:text="To switch between accounts, click your balance in the upper-right corner , Make sure you are in the traderoom. The panel that opens shows all your accounts. Your real account, your practice account, and accounts for any tournaments that you have inserted in are participating in, Click an account to make it active so you can use it for tradng."
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/Tv_Ans8"
+            android:background="@color/colorLightGray"/>
+
+    </RelativeLayout>
+
+</ScrollView>

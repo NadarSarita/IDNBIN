@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen.Profile.Balance.BalanceActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/layout_appbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/BottomFunctions"
+        android:layout_below="@+id/appbar"/>
+
+    <TextView
+        android:id="@+id/TvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN BALANCE:"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/appbar"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/TvBalanceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:layout_margin="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/appbar"
+        android:textColor="@color/colorYellow"/>
+
+    <TextView
+        android:id="@+id/TvTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Transactions"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/TvBalance"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/TvAllTranscations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all transactions>"
+        android:textSize="12sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/TvBalance"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/TansactionData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/TvTransaction">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#081A30">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Date"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Type"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Amount"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_button_transparent"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="12 Jan 2020"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Deposit"
+                android:textAlignment="center"
+                android:textColor="@color/colorBuy"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="10000"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bg_button_transparent"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="02 Feb 2020"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Withdraw"
+                android:textAlignment="center"
+                android:textColor="@color/colorSell"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="4000"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bg_button_transparent"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="10 Feb 2020"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Deposit"
+                android:textAlignment="center"
+                android:textColor="@color/colorBuy"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="10000"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/bg_button_transparent"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="15 Feb 2020"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Withdraw"
+                android:textAlignment="center"
+                android:textColor="@color/colorSell"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="2000"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BottomFunctions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:id="@+id/RLWithdraw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_sell"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/TvBuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Withdraw"
+                android:textAlignment="center"
+                android:textColor="#FFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLDeposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_buy"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/TvSell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deposit"
+                android:textAlignment="center"
+                android:textColor="#FFF" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

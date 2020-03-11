@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/card_view"
+    app:cardBackgroundColor="@color/colorWhiteTrans"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="5dp"
+        android:padding="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/IMG_ChatLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/TV_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English chat"
+            android:layout_toEndOf="@+id/IMG_ChatLogo"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/TV_chat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/TV_chat"
+            android:layout_toEndOf="@+id/IMG_ChatLogo"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
+
+       <!-- <TextView
+            android:id="@+id/TV_chattime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17:30"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/TV_chatseen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="online"
+            android:layout_below="@+id/TV_chat"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorGradGreen"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>-->
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">IDNBIN</string>
+    <string name="facebook_app_id">186778342579957</string>
+    <string name="fb_login_protocol_scheme">fb186778342579957</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    Notification-->
+    <string name="push_notify">Push Notifications \n</string>
+    <string name="push_notify_desc">Be notified about the lastest trading news via push \nnotification</string>
+    <string name="email_notify">Email Notifications \n</string>
+    <string name="email_notify_desc">Receive Emails about new platform features and big \nevents</string>
+    <string name="promo">Promotions</string>
+    <string name="tournaments">Tournaments</string>
+    <string name="system_news">System News</string>
+    <string name="analytical_reports">Analytical Reports</string>
+    <string name="acc_activity">Account Activity</string>
+    <string name="closed_trade">Closed trades</string>
+    <string name="receive_rst">Receive results of trades even while you are away</string>
+    <string name="succ_withdraw">Successful Withdrawal</string>
+    <string name="request_approved">We will let you know once the request approved</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="rec_notification">Receive notification when your pending order get \nexecuted or canceled</string>
+    <string name="margin_trading">Margin trading notifications</string>
+    <string name="market_data">Market Data</string>
+    <string name="market_news">Market News</string>
+    <string name="latest_trading_news">Stay tuned for the latest trading news</string>
+    <string name="prise_mnt">Prise movement</string>
+    <string name="sharp_jump">Sharp jump/drop</string>
+    <string name="rapid_access">Rapid access prise change</string>
+    <string name="open_position">Open positions</string>
+    <string name="rise_fall">Rise/fall notifications</string>
+    <string name="rise_fall_next_level">We will let you know when your open positions \nrise/fall to the next level </string>
+    <string name="chat">Chats</string>
+    <string name="Support">Supports</string>
+    <string name="support_chat">Notify me of new message in the Support chat</string>
+    <string name="alert">Alerts</string>
+    <string name="prise_alert">Prise Alert Set</string>
+    <string name="receive_prise_alert">You will receive prise alerts your previously set </string>
+    <string name="communication_of_data">I here by consent to the processing of my personal information by IQ Option and its partners and related entities for marketting purposes</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="amt_description">You will be redirected to payment gate to process payment</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/colorWhiteTransparent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/IV_SymbolLogo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_fb" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:id="@+id/LL_SymbolName"
+                android:layout_toRightOf="@+id/IV_SymbolLogo">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EUR/GBD"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:id="@+id/TV_SymbolName"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIGITAL"
+                    android:textSize="10sp"
+                    android:id="@+id/TV_Category"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

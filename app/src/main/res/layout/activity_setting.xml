@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/layout_appbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="5dp"
+                android:padding="8dp"
+                android:text="Traderoom Setting"
+                android:textColor="@color/colorLightGray"
+                android:textSize="14sp" />
+
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Expiration Panel"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Trader Sitements"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Live deals"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Share my Live deals"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Closed deals on chart(option)"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Closed deals on chart(Forex,Crypto,CFD)"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Sound"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="5dp"
+                android:padding="8dp"
+                android:text="Chart Setting"
+                android:textColor="@color/colorLightGray"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:orientation="vertical">
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:padding="8dp"
+                    android:text="Investment Amount"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:theme="@style/SwitchTheme" />
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:padding="8dp"
+                    android:text="Show high/low on chart"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:theme="@style/SwitchTheme" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="5dp"
+                android:padding="8dp"
+                android:text="Purchase Setting"
+                android:textColor="@color/colorLightGray"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:orientation="vertical">
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:padding="12dp"
+                    android:text="Buy in one click(option)"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    android:theme="@style/SwitchTheme" />
+
+            </LinearLayout>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Sell with confirmation(Forex)"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Buy in one click(option)"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Use balance to keep position open"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Trailing Stop"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="5dp"
+                android:padding="8dp"
+                android:text="In-app notification"
+                android:textColor="@color/colorLightGray"
+                android:textSize="14sp" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Show notification about tick-by-tick execution"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="?attr/colorWhiteTransparent"
+                android:padding="12dp"
+                android:text="Show price movements notification in trade room"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:theme="@style/SwitchTheme" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:padding="12dp"
+                android:text="Open Source Licenses"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen.Profile.History.FilterTradeActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/layout_appbar"/>
+
+    <TextView
+        android:id="@+id/tv_gnl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLightGray"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/appbar"
+        android:textSize="14dp"
+        android:text="General"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?attr/colorWhiteTransparent"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tv_gnl">
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorWhite"
+            android:text="Instrument type"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_type"
+            android:padding="4dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorLightGray"
+            android:text="All Instruments"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_asset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/rl_type"
+        android:text="Asset"
+        android:padding="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?attr/colorWhiteTransparent"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tv_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_asset"
+        android:padding="8dp"
+        android:textSize="14dp"
+        android:text="Period"
+        android:textColor="@color/colorLightGray"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="?attr/colorWhiteTransparent"
+        android:layout_below="@+id/tv_period">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorWhite"
+            android:text="Date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_date"
+            android:padding="4dp"
+            android:textSize="14dp"
+            android:textColor="@color/colorLightGray"
+            android:text="All time"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

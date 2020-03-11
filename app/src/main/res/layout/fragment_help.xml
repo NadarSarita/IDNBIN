@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainScreen.Profile.Help.HelpFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CV_EnglishChat"
+        app:cardBackgroundColor="?attr/colorWhiteTransparent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:id="@+id/IV_ChatLogo"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_hindi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hindi"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:id="@+id/TV_HindiLanguage"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/IV_ChatLogo"
+                android:textColor="@color/colorWhite"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/TV_HindiLanguage"
+                android:layout_toRightOf="@id/IV_ChatLogo"
+                android:id="@+id/LL_ChatName">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone : 8888888888"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/TV_phone_number"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email : abc@xyz.com"
+                    android:textSize="12sp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/TV_email_id"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 x 7"
+                android:textSize="14sp"
+                android:id="@+id/TV_Time"
+                android:paddingRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CV_GlobalChat"
+        android:layout_below="@+id/CV_EnglishChat"
+        app:cardBackgroundColor="?attr/colorWhiteTransparent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:id="@+id/IV_ChatLogo1"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_english" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:id="@+id/TV_EnglishLanguage"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/IV_ChatLogo1"
+                android:textColor="@color/colorWhite"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/TV_EnglishLanguage"
+                android:layout_toRightOf="@id/IV_ChatLogo1"
+                android:id="@+id/LL_ChatName1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone : 8888888888"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/TV_phone_number1"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email : abc@xyz.com"
+                    android:textSize="12sp"
+                    android:paddingRight="10dp"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/TV_email_id1"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 x 7"
+                android:textSize="14sp"
+                android:id="@+id/TV_Time1"
+                android:paddingRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
