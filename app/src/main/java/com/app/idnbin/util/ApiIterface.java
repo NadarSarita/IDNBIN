@@ -28,6 +28,6 @@ public interface ApiIterface {
     @GET("quotes?pairs=EURUSD&api_key=B70qKwu64eVlzwfIwe900xhT2Pn6KvZS")
     Call<ArrayList<BidData>> getBidData();
 
-    @POST("bots/idnbot/converse/{uid}")
-    Call<BotReply> getSupportData(@Path("uid") String uid, @Body SupportRequestBody supportRequestBody);
+    @POST("bots/idnbot/converse/1")
+    Call<BotReply> getSupportData(@Body SupportRequestBody supportRequestBody);
 }

@@ -60,11 +60,13 @@ public class ApiCall {
         interceptor.setLevel(BODY);
 
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor)
-                .connectTimeout(2, TimeUnit.MINUTES)
-                .writeTimeout(2, TimeUnit.MINUTES)
-                .readTimeout(2, TimeUnit.MINUTES).build();
+                .connectTimeout(5, TimeUnit.MINUTES)
+                .writeTimeout(5, TimeUnit.MINUTES)
+                .readTimeout(5, TimeUnit.MINUTES).build();
         if (forexnew == null) {
-            forexnew = new Retrofit.Builder().baseUrl("http://10.0.2.2:3000/api/v1/").addConverterFactory(GsonConverterFactory.create()).client(client).build();
+           // forexnew = new Retrofit.Builder().baseUrl("http://10.0.2.2:3000/api/v1/").addConverterFactory(GsonConverterFactory.create()).client(client).build();
+//            forexnew = new Retrofit.Builder().baseUrl("http://192.168.56.1:3000/api/v1/").addConverterFactory(GsonConverterFactory.create()).client(client).build();
+            forexnew = new Retrofit.Builder().baseUrl("http://192.168.1.104:3000/api/v1/").addConverterFactory(GsonConverterFactory.create()).client(client).build();
         }
         return forexnew;
     }
